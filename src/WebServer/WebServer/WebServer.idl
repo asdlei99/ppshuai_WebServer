@@ -1,0 +1,20 @@
+// WebServer.idl : IDL source for WebServer.exe
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (WebServer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(12EAB36D-C2B9-4924-A8CB-8DF19DF5FC4F),
+	version(1.0),
+	helpstring("WebServer 1.0 Type Library")
+]
+library WebServerLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};
